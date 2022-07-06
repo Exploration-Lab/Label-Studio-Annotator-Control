@@ -69,22 +69,18 @@ export const DangerZone = () => {
 
   return (
     <div style={{width: 480}}>
-      <Label
+      {/* <Label
         text="Delete Annotations, Tasks, or Project"
         description="Perform these actions at your own risk. Actions you take on this page can't be reverted. Make sure your data is backed up."
         style={{display: 'block', width: 415}}
-      />
+      /> */}
 
       {project.id ? (
         <Space direction="vertical" spread style={{marginTop: 32}}>
           {buttons.map((btn) => {
             const waiting = processing === btn.type;
             const disabled = btn.disabled || (processing && !waiting);
-            return (btn.disabled !== true) && (
-              <Button key={btn.type} look="danger" disabled={disabled} waiting={waiting} onClick={handleOnClick(btn.type)}>
-                {btn.label}
-              </Button>
-            );
+            
           })}
         </Space>
       ) : (

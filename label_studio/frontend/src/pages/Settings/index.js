@@ -13,10 +13,7 @@ export const MenuLayout = ({children, ...routeProps}) => {
   return (
     <SidebarMenu
       menuItems={[
-        GeneralSettings,
-        LabelingSettings,
-        InstructionsSettings,
-        MachineLearningSettings,
+    
       ]}
       path={routeProps.match.url}
       children={children}
@@ -32,9 +29,7 @@ export const SettingsPage = {
   layout: MenuLayout,
   component: GeneralSettings,
   pages: {
-    InstructionsSettings,
-    LabelingSettings,
-    MachineLearningSettings,
+   
   },
 };
 // Have removed the Danger Zone, Cloud Storage & WebHooks Pages from Settings
