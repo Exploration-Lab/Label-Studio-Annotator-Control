@@ -27,7 +27,7 @@ export const SettingsPage = {
   path: "/settings",
   exact: true,
   layout: MenuLayout,
-  component: GeneralSettings,
+//   component: GeneralSettings,
   pages: {
    
   },
