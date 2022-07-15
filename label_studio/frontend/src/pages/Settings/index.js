@@ -13,7 +13,7 @@ export const MenuLayout = ({children, ...routeProps}) => {
   return (
     <SidebarMenu
       menuItems={[
-    
+   
       ]}
       path={routeProps.match.url}
       children={children}
@@ -29,7 +29,7 @@ export const SettingsPage = {
   layout: MenuLayout,
 //   component: GeneralSettings,
   pages: {
-   
+    
   },
 };
 // Have removed the Danger Zone, Cloud Storage & WebHooks Pages from Settings
