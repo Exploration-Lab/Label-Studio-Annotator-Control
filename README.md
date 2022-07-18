@@ -14,7 +14,7 @@ Label-Studio for Data Annotations have been modified. Here It can be used with m
 
 ```bash
 # Requires >=Python3.6, <3.9
-pip install label-studio
+pip install label-studio=1.4
 
 # Start the server at http://localhost:8080
 label-studio
@@ -50,10 +50,10 @@ python label_studio/manage.py collectstatic --no-input
 
 
 ## What you get from Modified- Label Studio
-- Safe Enviroment for multi-users to work on an enviroment
-- Have removed the Danger Zone, Cloud Storage & WebHooks Pages from Settings, so that no user/annotator can delete or make modifications in the whole project
-- Removed 3 Actions of Tasks: Delete Tasks, Delete Task Annotations, Delete Task Predcitions
-- All deletion actions have been removed.
+- Safe environment for multi-users to work on an enviroment
+- Edited settings button with no functionality, so that no user/annotator can delete or make modifications in the whole project
+- Annotate without fear of data loss since all deletion actions have been removed- 3 Actions of Tasks: Delete Tasks, Delete Task Annotations, Delete Task Predictions
+
 
 ### Settings Page Modified.
 ![image](https://user-images.githubusercontent.com/71543838/175102704-331ef22e-ddae-485e-94c7-79395ae58f4d.png)
