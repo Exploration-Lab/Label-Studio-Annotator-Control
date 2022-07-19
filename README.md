@@ -5,10 +5,9 @@
 
 Label Studio is an open source data labeling tool. It lets you label data types like audio, text, images, videos, and time series with a simple and straightforward UI and export to various model formats. It can be used to prepare raw data or improve existing training data to get more accurate ML models.
 
-## What is this Modified-Label Studio?
+### Please Check our Blog for more details regarding the PROJECT. If you face any issues, contact the contributors
 
-Label-Studio for Data Annotations have been modified. Here It can be used with multi users with safe control over the data. No user can delete labels, predictions or make changes in setting.
-
+## Installation Procedure
 
 ### Install unmodified label-studio locally with pip
 Activate virtual environment and pip install inside it. 
@@ -26,7 +25,7 @@ label-studio
 Steps to install the modified version with danger buttons disabled: 
 Activate virtual environment and clone the repo inside it. 
 ```bash
-git clone https://github.com/Prajit-Sengupta/Modified-Label-Studio.git
+git clone https://github.com/Exploration-Lab/Label-Studio-Annotator-Control/.git
 cd label-studio-multimodal-annotation
 # Install all package dependencies
 pip install -e .
@@ -36,7 +35,7 @@ python label_studio/manage.py migrate
 python label_studio/manage.py runserver
 ```
 
-#### Apply frontend changes
+#### Apply frontend changes(only for developers)
 
 The frontend part of Label Studio app lies in the `frontend/` folder and written in React JSX. In case you've made some changes there, the following commands should be run before building / starting the instance:
 
