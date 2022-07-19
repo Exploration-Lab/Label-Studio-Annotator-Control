@@ -10,11 +10,12 @@ Label Studio is an open source data labeling tool. It lets you label data types 
 Label-Studio for Data Annotations have been modified. Here It can be used with multi users with safe control over the data. No user can delete labels, predictions or make changes in setting.
 
 
-### Install locally with pip
+### Install unmodified label-studio locally with pip
+Activate virtual environment and pip install inside it. 
 
 ```bash
 # Requires >=Python3.6, <3.9
-pip install label-studio=1.4
+pip install label-studio==1.4
 
 # Start the server at http://localhost:8080
 label-studio
@@ -22,12 +23,11 @@ label-studio
 
 ### Install for local development
 
-You can run the latest Label Studio version locally without installing the package with pip. 
-
+Steps to install the modified version with danger buttons disabled: 
+Activate virtual environment and clone the repo inside it. 
 ```bash
 git clone https://github.com/Prajit-Sengupta/Modified-Label-Studio.git
-cd label-studio
-git checkout 3e28c167765c5a4030fbd309955d4eb64baf1841
+cd label-studio-multimodal-annotation
 # Install all package dependencies
 pip install -e .
 # Run database migrations
@@ -55,8 +55,8 @@ python label_studio/manage.py collectstatic --no-input
 - Annotate without fear of data loss since all deletion actions have been removed- 3 Actions of Tasks: Delete Tasks, Delete Task Annotations, Delete Task Predictions
 
 
-### Settings Page Modified.
-![image](https://user-images.githubusercontent.com/71543838/175102704-331ef22e-ddae-485e-94c7-79395ae58f4d.png)
+### Settings Page made empty.
+<img width="1406" alt="Screenshot 2022-07-19 at 2 28 40 PM" src="https://user-images.githubusercontent.com/82379532/179710953-7c63f860-8d7a-4449-84cf-80889654f6ab.png">
 
 ### Tasks Toggle Modified
 ![image](https://user-images.githubusercontent.com/71543838/175102817-9104a625-09ee-4cd5-ac60-d796479587e9.png)
