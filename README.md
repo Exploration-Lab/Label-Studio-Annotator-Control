@@ -60,3 +60,9 @@ python label_studio/manage.py collectstatic --no-input
 
 ### Tasks Toggle Modified
 ![image](https://user-images.githubusercontent.com/71543838/175102817-9104a625-09ee-4cd5-ac60-d796479587e9.png)
+
+### Import button removed 
+<img width="1424" alt="Screenshot 2022-07-19 at 2 30 40 PM" src="https://user-images.githubusercontent.com/82379532/179711348-ed2dc666-ac19-48b0-8b14-361fd6e37b1a.png">
+
+### Delete annotation button removed 
+<img width="861" alt="Screenshot 2022-07-19 at 2 31 40 PM" src="https://user-images.githubusercontent.com/82379532/179711552-17976993-e838-4e49-92ec-e5b91d423624.png">
