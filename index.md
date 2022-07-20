@@ -45,7 +45,7 @@ We planned to collect annotated data through crowdsourcing. Label Studio provide
 
 
 ### 4. Our Solution
-We have made many apt changes to the code-base for the label-studio to be used by annotators (people who want to volunteer to label different sorts of data for a particular project) from all around the world. The annotators can get in any of the Projects available in the Label-Studio-Annotator-Control's dashboard. From there itself they can annotate any dataset they prefer to, but cannot make any changes to the originality of the project (dataset/training set).
+We have made many apt changes to the code-base for the label-studio to be used by annotators (people who want to volunteer to label different sorts of data for a particular project) from all around the world. The annotators can get in any of the Projects available in the **Label-Studio-Annotator-Control's** dashboard. From there itself they can annotate any dataset they prefer to, but cannot make any changes to the originality of the project (dataset/training set).
 
 To make this into action we have to use 2 portals. One is the admin portal which has all the functionality of Label-Studio & the other for public use(for the annotators.) Both are connected to the same database.
 
@@ -82,7 +82,7 @@ These are the following changes we made in Label-Studio(For Public use) to relea
 Have made some changes in the UI, for users to preview the data like videos, along with context videos in an easy & simple manner.
 
 #### 5. How to Use It?(Installation)
-To use this software we need to download the original label-studio code for the admin to create & manage his/her project. While for the public annotators, they need to install from the github repo Label-Studio-Annotator-Control.
+To use this software we need to download the original label-studio code for the admin to create & manage his/her project. While for the public annotators, they need to install from the github repo Label-Studio-Annotator-Control.\
 **Install Label-Studio(admin)**
 ```
 # Requires >=Python3.6, <3.9
@@ -91,7 +91,7 @@ pip install label-studio
 label-studio
 ```
 
-**Install [Software] - Public Annotators**
+**Install [Label-Studio-Annotator-Tool] - Public Annotators**
 ```
 git clone https://github.com/Exploration-Lab/label-studio-multimodal-annotation.git
 cd label-studio
@@ -111,7 +111,7 @@ python label_studio/manage.py runserver
 You can manage the changes in the final project by making a new label studio environment with pip such that both the environments are in sync. You can create the projects here, select the type of labelling setup that you require and import the json for syncing the database to the tool.
 Make changes in the xml and you are good to go for annotators to annotate. 
 OR
-You can also make a super user using the command python manage.py makesuperuser which inbuilt feature of the backend which can help you monitor the tasks.
+You can also make a super user using the command python manage.py makesuperuser which inbuilt feature of the backend which can help you monitor the tasks.\
 Note: You can refer out [Tutorial Video](https://drive.google.com/file/d/1sHGTmhcXgCzvOp9iUgVa6D8rOwb__7i9/view?usp=drivesdk)
 
 ### 7. Conclusion
