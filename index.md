@@ -128,9 +128,9 @@ This Project was made by:
 
 1.**Prajit Sengupta** (Thapar Institute of Engineering & Technology) ([Email me](mailto:ratulsengupta8@gmai.com)).
 
-2.**Dishay Mehta** (Indian Institute of Technology Kanpur) (Email Id).
+2.**Dishay Mehta** (Indian Institute of Technology Kanpur) ([Email me](mailto:dishaymehta952@gmail.com)).
 
-3.**Tejas R** (Indian Institute of Technology Kanpur) (Email Id).
+3.**Tejas Ramakrishnan** (Indian Institute of Technology Kanpur) ([Email me](mailto:tejas20r@gmail.com)).
 
 Under the mentorship of <a href="https://ashutosh-modi.github.io/"> Dr. Ashutosh Modi </a> (Indian Institute of Technology Kanpur)
 
