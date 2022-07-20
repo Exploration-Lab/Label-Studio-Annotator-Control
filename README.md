@@ -6,6 +6,17 @@ When we are working in NLP related projects where labeling of data is needed to 
 ### Please Check our [BLOG](https://exploration-lab.github.io/Label-Studio-Annotator-Control/) for more details regarding the PROJECT. If you face any issues, contact the contributors
 BLOG Link: [https://exploration-lab.github.io/Label-Studio-Annotator-Control/](https://exploration-lab.github.io/Label-Studio-Annotator-Control/)
 
+### Contributors:
+This Project was made by:
+
+1.**Prajit Sengupta** (Thapar Institute of Engineering & Technology) ([Email me](mailto:ratulsengupta8@gmai.com)).
+
+2.**Dishay Mehta** (Indian Institute of Technology Kanpur) (Email Id).
+
+3.**Tejas R** (Indian Institute of Technology Kanpur) (Email Id).
+
+Under the mentorship of <a href="https://ashutosh-modi.github.io/"> Dr. Ashutosh Modi </a> (Indian Institute of Technology Kanpur)
+
 ## Installation Procedure
 
 ### Install unmodified label-studio locally with pip
