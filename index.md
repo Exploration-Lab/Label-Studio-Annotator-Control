@@ -4,14 +4,14 @@ Github Link: [https://github.com/Exploration-Lab/Label-Studio-Annotator-Control.
 )
 
 **Contents:**
-1. Use-case
+1. Use-case.
 2. What Is Label-Studio?
-3. Issues Faced
-4. Our Solution 
-5. How to use it. (Install,run, deploy)
-6. Managing your project
+3. Issues Faced.
+4. Our Solution. 
+5. How to use it? (Install,run, deploy)
+6. Managing your project.
 7. Conclusion (Resource & our feedback)
-8. Contributors
+8. Contributors.
 
 ### 1. Our Use Case
 Natural language processing (NLP) is a subfield of AI and linguistics which enables computers to understand, interpret and manipulate human language. 
