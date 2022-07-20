@@ -138,7 +138,7 @@ This Project was made by:
 
 3.**Tejas R** (Indian Institute of Technology Kanpur) (Email Id).
 
-Under the mentorship of **Prof Ashutosh Modi** (Indian Institute of Technology , CSED)
+Under the mentorship of **Prof Ashutosh Modi** (Indian Institute of Technology Kanpur)
 
 
 
