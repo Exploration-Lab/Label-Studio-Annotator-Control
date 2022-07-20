@@ -1,6 +1,6 @@
 # Label-Studio-Annotator-Control
 
-Github Link: [https://github.com/Exploration-Lab/Label-Studio-Annotator-Control.git]url(https://github.com/Exploration-Lab/Label-Studio-Annotator-Control.git
+Github Link: [https://github.com/Exploration-Lab/Label-Studio-Annotator-Control.git](https://github.com/Exploration-Lab/Label-Studio-Annotator-Control.git
 )
 
 **Contents:**
