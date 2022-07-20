@@ -52,7 +52,7 @@ These are the following changes we made in Label-Studio(For Public use) to relea
 - Removed 3 Actions of Tasks: Delete Tasks, Delete Task Annotations, Delete Task 
 - Predictions. This wouldn't allow any user to delete/modify any of the particular sample in the project
 Before
-
+![Before](https://user-images.githubusercontent.com/71543838/179961321-d66fab80-1a28-4816-ae27-cffeadcfda75.png)
 
 After
 
