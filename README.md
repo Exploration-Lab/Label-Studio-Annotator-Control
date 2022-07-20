@@ -1,6 +1,7 @@
-## What is Label Studio?
+# Label-Studio-Annotator-Control
 
-Label Studio is an open source data labeling tool. It lets you label data types like audio, text, images, videos, and time series with a simple and straightforward UI and export to various model formats. It can be used to prepare raw data or improve existing training data to get more accurate ML models.
+## What is Label Studio?
+When we are working in NLP related projects where labeling of data is needed to feed the models, we need the help of annotation to label most of the data. For annotation tasks we have various tools in the market and the choice for users depends upon what sort of thing they want to label. We went with a multifunction open-source, data-labeling software named Label-Studio.
 
 ### Please Check our [BLOG](https://exploration-lab.github.io/Label-Studio-Annotator-Control/) for more details regarding the PROJECT. If you face any issues, contact the contributors
 BLOG Link: [https://exploration-lab.github.io/Label-Studio-Annotator-Control/](https://exploration-lab.github.io/Label-Studio-Annotator-Control/)
