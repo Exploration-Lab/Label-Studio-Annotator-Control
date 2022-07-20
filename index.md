@@ -112,7 +112,7 @@ You can manage the changes in the final project by making a new label studio env
 Make changes in the xml and you are good to go for annotators to annotate. 
 OR
 You can also make a super user using the command python manage.py makesuperuser which inbuilt feature of the backend which can help you monitor the tasks.\
-Note: You can refer out [Tutorial Video](https://drive.google.com/file/d/1sHGTmhcXgCzvOp9iUgVa6D8rOwb__7i9/view?usp=drivesdk)
+**NOTE:** You can also refer our [Tutorial Video](https://drive.google.com/file/d/1sHGTmhcXgCzvOp9iUgVa6D8rOwb__7i9/view?usp=drivesdk)
 
 ### 7. Conclusion
 We feel this Label-Studio-Annotator-Control, can make the job of millions of students/researchers job of annotating or labeling data of their dataset fast & in a secured way. They can open-source their project to volunteers (who will be the annotators), to labe their huge-datset, which would have consumed lot of time, if they would have done on their own. 
@@ -126,7 +126,7 @@ You can simple follow the above steps for easy and Bingo! You are good to go wit
 ### Contributors:
 This Project was made by:
 
-1.**Prajit Sengupta** (Thapar Institute of Engineering & Technology) ([Email me](mailto:ratulsengupta8@gmai.com)).
+1.**Prajit Sengupta** (Thapar Institute of Engineering & Technology) ([Email me](mailto:ratulsengupta8@gmail.com)).
 
 2.**Dishay Mehta** (Indian Institute of Technology Kanpur) ([Email me](mailto:dishaymehta952@gmail.com)).
 
