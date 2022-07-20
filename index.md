@@ -42,7 +42,7 @@ We planned to collect annotated data through crowdsourcing. Label Studio provide
 
 
 ### 4. Our Solution
-We have made many apt changes to the code-base for the label-studio to be used by annotators (people who want to volunteer to label different sorts of data for a particular project) from all around the world. The annotators can get in any of the Projects available in the [software’s] dashboard. From there itself they can annotate any dataset they prefer to, but cannot make any changes to the originality of the project (dataset/training set).
+We have made many apt changes to the code-base for the label-studio to be used by annotators (people who want to volunteer to label different sorts of data for a particular project) from all around the world. The annotators can get in any of the Projects available in the Label-Studio-Annotator-Control's dashboard. From there itself they can annotate any dataset they prefer to, but cannot make any changes to the originality of the project (dataset/training set).
 
 To make this into action we have to use 2 portals. One is the admin portal which has all the functionality of Label-Studio & the other for public use(for the annotators.) Both are connected to the same database.
 
@@ -81,12 +81,11 @@ After
 
 
 
-
 **NOTE:** Have removed the Synced Storage functionality. So that no user/annotator can sync the data to some different project, which might lead to a mess in the existing project.
 Have made some changes in the UI, for users to preview the data like videos, along with context videos in an easy & simple manner.
 
 #### 5. How to Use It?(Installation)
-To use this software we need to download the original label-studio code for the admin to create & manage his/her project. While for the public annotators, they need to install from the github repo [software_name]
+To use this software we need to download the original label-studio code for the admin to create & manage his/her project. While for the public annotators, they need to install from the github repo Label-Studio-Annotator-Control.
 **Install Label-Studio(admin)**
 ```
 # Requires >=Python3.6, <3.9
@@ -94,7 +93,6 @@ pip install label-studio
 # Start the server at http://localhost:8080
 label-studio
 ```
-
 
 **Install [Software] - Public Annotators**
 ```
@@ -108,7 +106,7 @@ python label_studio/manage.py migrate
 python label_studio/manage.py runserver
 ```
 
-Note: The Database of both of the versions (Label-Studio & [Software] ) will be connceted by default. (For eg the path to the dataset will be the same for both of the versions.) Here you dont’t need to make any changes.
+Note: The Database of both of the versions (Label-Studio & Label-Studio-Annotator-Control ) will be connceted by default. (For eg the path to the dataset will be the same for both of the versions.) Here you dont’t need to make any changes.
 
 
 
@@ -120,7 +118,7 @@ You can also make a super user using the command python manage.py makesuperuser 
 Note: You can refer out [Tutorial Video](https://drive.google.com/file/d/1sHGTmhcXgCzvOp9iUgVa6D8rOwb__7i9/view?usp=drivesdk)
 
 ### 7. Conclusion
-We feel this [Software], can make the job of millions of students/researchers job of annotating or labeling data of their dataset fast & in a secured way. They can open-source their project to volunteers (who will be the annotators), to labe their huge-datset, which would have consumed lot of time, if they would have done on their own. 
+We feel this Label-Studio-Annotator-Control, can make the job of millions of students/researchers job of annotating or labeling data of their dataset fast & in a secured way. They can open-source their project to volunteers (who will be the annotators), to labe their huge-datset, which would have consumed lot of time, if they would have done on their own. 
 This way the process of labelling of data becomes quite fast as well as transparent.  
 You can simple follow the above steps for easy and Bingo! You are good to go with your labelling of your data via other people. 
 
@@ -129,10 +127,9 @@ You can simple follow the above steps for easy and Bingo! You are good to go wit
 
 
 ### Contributors:
-
 This Project was made by:
 
-1.**Prajit Sengupta** (Thapar Institute of Engineering & Technology) (Email Id).
+1.**Prajit Sengupta** (Thapar Institute of Engineering & Technology) ([Email me](mailto:ratulsengupta8@gmai.com)).
 
 2.**Dishay Mehta** (Indian Institute of Technology Kanpur) (Email Id).
 
