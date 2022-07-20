@@ -3,7 +3,7 @@
 ## What is Label Studio?
 When we are working in NLP related projects where labelled data is needed to feed the models, we need the help of annotations to label most of the data. For annotation tasks we have various tools in the market and the choice for users depends upon what sort of thing they want to label. We went with a multifunction open-source, data-labeling software named Label-Studio.
 
-### Please Check our [BLOG](https://exploration-lab.github.io/Label-Studio-Annotator-Control/) for more details regarding the PROJECT. If you face any issues, contact the contributors
+### Please check our [BLOG](https://exploration-lab.github.io/Label-Studio-Annotator-Control/) for more details regarding the PROJECT. If you face any issues, contact the contributors
 BLOG Link: [https://exploration-lab.github.io/Label-Studio-Annotator-Control/](https://exploration-lab.github.io/Label-Studio-Annotator-Control/)\
 Also we have a [Tutorial Video](https://drive.google.com/file/d/1sHGTmhcXgCzvOp9iUgVa6D8rOwb__7i9/view?usp=drivesdk) for better understanding of the software.
 
@@ -20,6 +20,7 @@ Under the mentorship of <a href="https://ashutosh-modi.github.io/"> Dr. Ashutosh
 
 ## Installation Procedure
 To use this software we need to download the original label-studio code for the admin to create & manage his/her project. While for the public annotators, they need to install from the github repo Label-Studio-Annotator-Control.
+
 **Install Label-Studio(admin)**
 ```
 # Requires >=Python3.6, <3.9
