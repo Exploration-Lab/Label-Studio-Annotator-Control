@@ -93,7 +93,7 @@ label-studio
 
 **Install [Label-Studio-Annotator-Tool] - Public Annotators**
 ```
-git clone https://github.com/Exploration-Lab/label-studio-multimodal-annotation.git
+git clone https://github.com/Exploration-Lab/Label-Studio-Annotator-Control.git
 cd label-studio
 # Install all package dependencies
 pip install -e .
