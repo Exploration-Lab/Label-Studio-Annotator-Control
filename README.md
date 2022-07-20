@@ -1,7 +1,7 @@
 # Label-Studio-Annotator-Control
 
 ## What is Label Studio?
-When we are working in NLP related projects where labeling of data is needed to feed the models, we need the help of annotation to label most of the data. For annotation tasks we have various tools in the market and the choice for users depends upon what sort of thing they want to label. We went with a multifunction open-source, data-labeling software named Label-Studio.
+When we are working in NLP related projects where labelled data is needed to feed the models, we need the help of annotations to label most of the data. For annotation tasks we have various tools in the market and the choice for users depends upon what sort of thing they want to label. We went with a multifunction open-source, data-labeling software named Label-Studio.
 
 ### Please Check our [BLOG](https://exploration-lab.github.io/Label-Studio-Annotator-Control/) for more details regarding the PROJECT. If you face any issues, contact the contributors
 BLOG Link: [https://exploration-lab.github.io/Label-Studio-Annotator-Control/](https://exploration-lab.github.io/Label-Studio-Annotator-Control/)\
@@ -10,16 +10,16 @@ Also we have a [Tutorial Video](https://drive.google.com/file/d/1sHGTmhcXgCzvOp9
 ### Contributors:
 This Project was made by:
 
-1.**Prajit Sengupta** (Thapar Institute of Engineering & Technology) ([Email me](mailto:ratulsengupta8@gmai.com)).
+1.**Prajit Sengupta** (Thapar Institute of Engineering & Technology) ([Email me](mailto:ratulsengupta8@gmail.com)).
 
-2.**Dishay Mehta** (Indian Institute of Technology Kanpur) (Email Id).
+2.**Dishay Mehta** (Indian Institute of Technology Kanpur) ([Email me](mailto:dishaym20@iitk.ac.in)).
 
-3.**Tejas R** (Indian Institute of Technology Kanpur) (Email Id).
+3.**Tejas R** (Indian Institute of Technology Kanpur) ([Email me](mailto:tejasr20@iitk.ac.in)).
 
 Under the mentorship of <a href="https://ashutosh-modi.github.io/"> Dr. Ashutosh Modi </a> (Indian Institute of Technology Kanpur)
 
 ## Installation Procedure
-To use this software we need to download the original label-studio code for the admin to create & manage his/her project. While for the public annotators, they need to install from the github repo Label-Studio-Annotator-Control.\
+To use this software we need to download the original label-studio code for the admin to create & manage his/her project. While for the public annotators, they need to install from the github repo Label-Studio-Annotator-Control.
 **Install Label-Studio(admin)**
 ```
 # Requires >=Python3.6, <3.9
@@ -36,7 +36,7 @@ cd label-studio
 pip install -e .
 # Run database migrations
 python label_studio/manage.py migrate
-# Start the server in development mode at http://localhost:8080(Port Default)
+# Start the server in development mode at http://localhost:8080 (Default Port)
 python label_studio/manage.py runserver
 ```
 
@@ -47,4 +47,4 @@ python label_studio/manage.py runserver
 - Annotate without fear of data loss since all deletion actions have been removed- 3 Actions of Tasks: Delete Tasks, Delete Task Annotations, Delete Task Predictions
 - And MANY MORE! Do Check out the [BLOG](https://exploration-lab.github.io/Label-Studio-Annotator-Control/)
 
-#### DO Start the repo if you liked this project and is useful to you.
+#### DO star the repository if you liked our open source contribution. Hope you are benefited by it :innocent:
