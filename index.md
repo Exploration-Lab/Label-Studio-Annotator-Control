@@ -50,15 +50,17 @@ These are the following changes we made in Label-Studio(For Public use) to relea
 - Safe Environment for multi-users to work.
 - Have the functionality of the Settings button, so that no user/annotator can delete or make modifications in any way possible to the whole project
 - Removed 3 Actions of Tasks: Delete Tasks, Delete Task Annotations, Delete Task Predictions. This wouldn't allow any user to delete/modify any of the particular sample in the project
+
 **Before:**
 <img width="215" alt="before" src="https://user-images.githubusercontent.com/71543838/179961321-d66fab80-1a28-4816-ae27-cffeadcfda75.png">
+
 **After:**
 ![image](https://user-images.githubusercontent.com/71543838/179962199-38d3f655-c36f-4ce8-9820-291d6cbd9210.png)
 
 - All deletion actions have been removed, which safeguard the project owners from loosing their data.
 
-Before
-
+**Before**
+![image](https://user-images.githubusercontent.com/71543838/179963193-a25f111e-e1c3-42e0-9251-419d8864808f.png)
 
 After
 
