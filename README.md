@@ -19,7 +19,7 @@ This Project was made by:
 Under the mentorship of <a href="https://ashutosh-modi.github.io/"> Dr. Ashutosh Modi </a> (Indian Institute of Technology Kanpur)
 
 ## Installation Procedure
-To use this software we need to download the original label-studio code for the admin to create & manage his/her project. While for the public annotators, they need to install from the github repo Label-Studio-Annotator-Control.
+To use this software we need to download the original label-studio code for the admin to create & manage the project. For the public annotators, they need to install from the github repository Label-Studio-Annotator-Control.
 
 **Install Label-Studio(admin)**
 ```
@@ -31,7 +31,7 @@ label-studio
 
 **Install [Software] - Public Annotators**
 ```
-git clone https://github.com/Exploration-Lab/label-studio-multimodal-annotation.git
+git clone https://github.com/Exploration-Lab/Label-Studio-Annotator-Control.git
 cd label-studio
 # Install all package dependencies
 pip install -e .
