@@ -5,7 +5,7 @@ When we are working in NLP related projects where labelled data is needed to fee
 
 ### Please check our [BLOG](https://exploration-lab.github.io/Label-Studio-Annotator-Control/) for more details regarding the PROJECT. If you face any issues, contact the contributors
 BLOG Link: [https://exploration-lab.github.io/Label-Studio-Annotator-Control/](https://exploration-lab.github.io/Label-Studio-Annotator-Control/)\
-Also we have a [Tutorial Video](https://drive.google.com/file/d/1sHGTmhcXgCzvOp9iUgVa6D8rOwb__7i9/view?usp=drivesdk) for better understanding of the software.
+Also we have a [Tutorial Video](https://drive.google.com/file/d/1sHGTmhcXgCzvOp9iUgVa6D8rOwb__7i9/view?usp=drivesdk) for better understanding of this software.
 
 ### Contributors:
 This Project was made by:
@@ -44,7 +44,7 @@ python label_studio/manage.py runserver
 ## What you get from Modified-Label Studio(Label-Studio-Annotator-Control)
 - Annotation Now made Easy!
 - Safe environment for multi-users to work on an enviroment
-- Edited settings button with no functionality, so that no user/annotator can delete or make modifications in the whole project
+- Edited settings button with no functionality, so that no user/annotator can delete or make modifications in the whole project, nor can import/create a new project.
 - Annotate without fear of data loss since all deletion actions have been removed- 3 Actions of Tasks: Delete Tasks, Delete Task Annotations, Delete Task Predictions
 - And MANY MORE! Do Check out the [BLOG](https://exploration-lab.github.io/Label-Studio-Annotator-Control/)
 
